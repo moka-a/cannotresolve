@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PlusMinusZero</string>
+    <string name="nav_header_subtitle">이름들어갈자리</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+
+    <string name="menu_plus">Plus</string>
+    <string name="menu_minus">Minus</string>
+    <string name="menu_plus_minus">PlusMinus</string>
+    <string name="menu_share">입력</string>
+</resources>

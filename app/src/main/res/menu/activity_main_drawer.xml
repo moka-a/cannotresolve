@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="조회">
+        <menu>
+            <item
+                android:id="@+id/plus"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_plus" />
+            <item
+                android:id="@+id/minus"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_minus" />
+            <item
+                android:id="@+id/plus_minus"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_plus_minus" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/input_plus_minus"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/no_mean"
+            android:icon="@drawable/ic_menu_send"
+            android:title="나중에생각나면" />
+    </group>
+
+
+
+</menu>
